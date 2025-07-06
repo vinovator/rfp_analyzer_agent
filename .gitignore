@@ -1,0 +1,47 @@
+# .gitignore
+
+config.py
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Environment variables and credentials
+.env
+*.key
+*.pem
+
+# Logs and outputs
+*.log
+
+# Data files (optional)
+*.csv
+*.tsv
+*.xlsx
+*.db
+
+# Python package builds
+build/
+dist/
+*.egg-info/
+
+# Streamlit cache (optional)
+.streamlit/
+
+# anaconda projects
+anaconda_projects/
